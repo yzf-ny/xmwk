@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="util-web" />
+        <module name="fastdfs-client-java" />
+        <module name="gmall-manager-web" />
+        <module name="gmall-manager" />
+        <module name="util-service" />
+        <module name="util-common" />
+        <module name="gmall-manager-service" />
+        <module name="gmall-interface" />
+        <module name="gmall-order-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fastdfs-client-java" target="1.6" />
+      <module name="gmall-bean" target="1.8" />
+      <module name="gmall-interface" target="1.8" />
+      <module name="gmall-manager" target="1.8" />
+      <module name="gmall-manager-service" target="1.8" />
+      <module name="gmall-manager-web" target="1.8" />
+      <module name="gmall-order-web" target="1.8" />
+      <module name="gmall-parent" target="1.8" />
+      <module name="util-common" target="1.8" />
+      <module name="util-service" target="1.8" />
+      <module name="util-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gmall-manager" options="" />
+      <module name="gmall-manager-service" options="" />
+      <module name="gmall-manager-web" options="" />
+    </option>
+  </component>
+</project>
